@@ -1,0 +1,15 @@
+default:
+  notification: ~/Music/notifications/knock_brush.mp3
+  volume: 150
+bots:
+  notification: ~/Music/notifications/flitterbug.mp3
+  volume: 110
+  members:
+    - Slackbot
+    - Commbot
+    - Outlook Calendar
+    - Deskare App
+favorites:
+  notification: ~/Music/notifications/hi_flowers_hit.mp3
+  members:
+    - pr-backend

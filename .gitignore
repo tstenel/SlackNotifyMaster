@@ -1,0 +1,87 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# mypy cache
+.mypy_cache/
+
+# ruff cache
+.ruff_cache
+
+# byte-compiled files
+__pycache__/
+*.py[cod]
+
+# setuptools
+*.egg-info/
+
+#random
+.cache/
+
+#pytest
+.pytest_cache/
+.coverage
+.coverage.*
+
+#build files
+src/build/
+src/dist/
+/dist/
+
+#WingIDE
+*.wpu
+*.wpr
+
+# local results folder
+results
+
+# python3 bytecode
+*.pyc
+__pycache__/
+
+# mypy cache
+.mypy_cache/
+
+# setuptools
+*.egg-info/
+
+# pytest
+.coverage
+coverage.xml
+
+# pytest-testmon
+.testmondata*
+
+# conf
+# conf/
+rules/
+
+/src/build
+/src/build-*
+/src/dist
+
+# byte-compiled files
+__pycache__/
+*.py[cod]
+
+# setuptools
+*.egg-info/
+
+#random
+.cache/
+
+#pytest
+.pytest_cache/
+.coverage
+
+# webpack
+webpack-stats.json
+
+src/**/*.c
+src/**/setup.py
+wheels/
+requirements.txt
+requirements.build.txt
